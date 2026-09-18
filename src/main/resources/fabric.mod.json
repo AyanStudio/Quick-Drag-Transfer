@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "quickdragtransfer",
+	"version": "${version}",
+	"name": "Quick Drag Transfer",
+	"description": "Hold Shift + Left Click and drag across inventory slots to instantly transfer every item you hover over, between your inventory and an open container.",
+	"authors": [
+		"AyanStudio"
+	],
+	"contact": {"homepage": "https://github.com/AyanStudio/Quick-Drag-Transfer"},
+	"license": "MIT",
+	"icon": "assets/quickdragtransfer/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"com.ayan.quickdragtransfer.QuickDragTransferClient"
+		]
+	},
+	"accessWidener": "quickdragtransfer.accesswidener",
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}

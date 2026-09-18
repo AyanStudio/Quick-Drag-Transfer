@@ -1,0 +1,5 @@
+accessWidener v2 official
+
+# Lets us read which slot is currently under the cursor while dragging,
+# without writing a mixin into AbstractContainerScreen itself.
+accessible field net/minecraft/client/gui/screens/inventory/AbstractContainerScreen hoveredSlot Lnet/minecraft/world/inventory/Slot;
